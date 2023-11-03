@@ -12,6 +12,7 @@ export const SideNavContainer = styled('nav')<CartContainerProps>`
   padding: 1.25rem;
   background: ${(props) => props.theme['white']};
   height: 100vh;
+  z-index: 200;
   position: fixed;
   top: 0;
   left: 0;
